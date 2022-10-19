@@ -1,0 +1,227 @@
+/* selectors */
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navigation Bar */
+.tindog {
+  font-size: 3.5rem;
+  font-family: cursive;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px 0;
+}
+
+.nav-link {
+  font-family: "montserrat";
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Title Section */
+
+#title .container-fluid{
+  padding: 1% 7% 15%;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+.download-app{
+  text-decoration: none;
+  color: #fff;
+}
+.download-app:hover{
+  color: #fff;
+}
+
+/* title-image */
+.title-image {
+  max-width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: 0;
+}
+
+/* Features Section */
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.icon {
+  /*font-size: 2.5rem;  we can also use this code to set up the size of icon rather than the class fa-4x in index.html file*/
+  margin-bottom: 1.5rem;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  padding: 0 2.5rem 2.5rem 2.5rem;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+.testimonial-tags {
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15% 3%;
+}
+
+.testimonial-text {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 8%;
+  margin: 2% 2%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 5%
+}
+
+.pricing-heading {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-para {
+  font-size: 1.5rem;
+}
+
+/* Call to action Section */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-text{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.cta-button {
+  margin: 1rem 1.5rem 0;
+}
+
+/* Footer Section */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 1%;
+}
+
+.copyright-text {
+  margin: 0;
+  color: #000;
+}
+
+.social-media-icons{
+  padding: 0 1% 0;
+}
+
+.fa-twitter:hover{
+  color: #1DA1F2;
+}
+.fa-facebook:hover{
+  color: #3b5998;
+}
+.fa-instagram:hover{
+  color: #c1558b;
+}
+.fa-envelope:hover{
+  color: #0fdf9b;
+}
+
+
+/* Media Query */
+@media(max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
